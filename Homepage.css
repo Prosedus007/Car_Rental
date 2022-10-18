@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color:#000;
+}
+
+.navbar{
+    padding: 4rem;
+}
+.navbar-nav li{
+    padding-right: 25px;
+}
+.navbar a img{
+    height: 60px;
+    width: 130px;
+    border-radius: 4px;
+}
+.bgimg{
+    background-image: url('car1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+/*home css*/
+.home h1{
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.app-stores img{
+    width: 150px;
+    height: 70px;
+    margin-right: 1rem;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 00.5rem;
+}
+       
+.form-container form{
+    margin-top: 8px;
+    padding: 20px;
+    gap: 1rem;
+}
+
+.input-box span{
+    padding: 7px;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+}
+
+
+.form-container form .btn{
+    flex: 1 1 5rem;
+    margin-top: 20px;
+    padding: 10px 34px;
+    border-radius: 0.5rem;
+    color: #fff;
+    background:rgb(24, 26, 26) ;
+}
+/*why choose us section*/
+/*
+.header-extradiv h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.header-extradiv .extra-div{
+   margin-top: 20px;
+}*/
+.container h1{
+    margin-bottom: 5%;
+}
+.header-extradiv{
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+  text-align: center;
+}
+.extra-div{
+    background-color: white;
+    border:medium none ;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra-div h2{
+    
+    font-weight: bold;
+    margin: 20px 0 15 px 0;
+    word-spacing: 4px;
+}
+.extra-div img{
+    height: 90%;
+    width: 100%;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
+
+/*Search for car*/
+.serviceoffers{
+    width: 100%;
+    height: 100vh;
+    padding: 40px 0;
+}
+.box{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 5px 0 rgba(0,0,0,0.3);
+    border-radius: 5px;
+    transform: 0.3s ease;
+}
+.box:hover {
+    background: #324d53;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+}
+.carousel-indicators li{
+    background-color:#324d53 !important
+     
+}
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.box a:after{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 120%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box h2{
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.box #mybtn{
+    background-color: #5ca8b9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/*footer css*/
+.footersection{
+    background-color: rgb(240, 237, 236);
+    padding: 70px 0 20px 0;
+    position: relative;
+    color:rgb(50, 71, 80) ;
+    width: 100%;
+    height: auto;
+}
+.contact-item{
+    display: inline-flex;
+    vertical-align: middle;
+}
+.contact-item .text{
+    padding-left: 10px;
+}
+.footersection h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-shadow: 0 2px 5px rgb(50, 71, 80);
+}
